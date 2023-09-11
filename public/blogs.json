@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "cover": "https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?cs=srgb&dl=4k-wallpaper-adventure-daylight-1525041.jpg&fm=jpg",
+    "title": "The Journey Begins",
+    "author": "John Doe",
+    "author_img": "https://th.bing.com/th/id/OIP.bnnCmzihox3GwZZoMOT4VwHaLI?pid=ImgDet&w=201&h=302&c=7",
+    "posted_date": "2023-01-01",
+    "reading_time": 5,
+    "hashtags": ["adventure", "journey", "beginning"]
+  },
+
+  {
+    "id": 2,
+    "cover": "https://th.bing.com/th/id/OIP.tNyNykmINzZPN9180XlL1gHaJQ?pid=ImgDet&w=474&h=592&rs=1",
+    "title": "A Twist in the Tale",
+    "author": "Jane Smith",
+    "author_img": "https://th.bing.com/th/id/OIP.WKJdEASGnygGHEQ8vV7PRQHaHa?pid=ImgDet&w=201&h=201&c=7",
+    "posted_date": "2023-02-01",
+    "reading_time": 10,
+    "hashtags": ["twist", "tale", "unexpected"]
+  },
+  {
+    "id": 3,
+    "cover": "https://th.bing.com/th/id/OIP.kvoVi41STGNiYTclvd7oSQHaE8?pid=ImgDet&w=474&h=316&rs=1",
+    "title": "The Final Countdown",
+    "author": "Alice Johnson",
+    "author_img": "https://th.bing.com/th/id/OIP.b9QrPZ2HZkRUsGMkgh7MpAHaHa?pid=ImgDet&w=201&h=201&c=7",
+    "posted_date": "2023-03-01",
+    "reading_time": 15,
+    "hashtags": ["final", "countdown", "climax"]
+  },
+  {
+    "id": 4,
+    "cover": "https://th.bing.com/th/id/OIP.ww2YBtxkAhfdV-xWFufZwgHaEK?pid=ImgDet&rs=1",
+    "title": "A New Dawn",
+    "author": "Bob Williams",
+    "author_img": "https://th.bing.com/th/id/OIP.MTkrFq5N2PI4cJeKov7wGgHaHa?pid=ImgDet&w=201&h=201&c=7",
+    "posted_date": "2023-04-01",
+    "reading_time": 20,
+    "hashtags": ["new", "dawn", "hope"]
+  },
+  {
+    "id": 5,
+    "cover": "https://cache.desktopnexus.com/thumbseg/1108/1108089-bigthumbnail.jpg",
+    "title": "The Road Less Traveled",
+    "author": "Charlie Brown",
+    "author_img": "https://th.bing.com/th/id/OIP.50mhbiD-dRPWCkFdpxuVlAHaHa?pid=ImgDet&w=201&h=201&c=7",
+    "posted_date": "2023-05-01",
+    "reading_time": 25,
+    "hashtags": ["road", "less", "traveled"]
+  }
+]
