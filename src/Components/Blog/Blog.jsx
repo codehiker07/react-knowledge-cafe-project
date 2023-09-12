@@ -3,9 +3,9 @@ import { FaBookmark } from 'react-icons/fa';
 const Blog = ({blog, handleAddToBookmark}) => {
     const {title, cover, author, author_img, posted_date, reading_time, hashtags} = blog;
     return (
-        <div className='mb-20'>
-            <img className='w-4/5 h-96 mb-6' src={cover} alt={`Cover picture- ${title}`} />
-            <div className='flex justify-between mb-4'>
+        <div className='mb-10 p-6'>
+            <img className='w-full h-96 mb-6' src={cover} alt={`Cover picture- ${title}`} />
+            <div className='flex justify-between mb-6'>
                 <div className='flex'>
                     <img className='w-14 h-14 rounded-full' src={author_img} alt="" />
                     <div className='ml-6'>
@@ -15,9 +15,10 @@ const Blog = ({blog, handleAddToBookmark}) => {
 
                     </div>
                 </div>
-                <div>
+                <div className=''>
                     <span>{reading_time} min read</span>
-                    <button onClick={handleAddToBookmark} className='ml-2 text-red-500'><FaBookmark></FaBookmark></button>
+                    <button 
+                    onClick={()=> handleAddToBookmark(blog)} className='ml-2 text-red-500'><FaBookmark></FaBookmark></button>
 
                 </div>
             </div>
@@ -30,7 +31,8 @@ const Blog = ({blog, handleAddToBookmark}) => {
 };
 
 Blog.propTypes = {
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    handleAddToBookmark: PropTypes.func
 
 };
 export default Blog;
